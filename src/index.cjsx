@@ -128,11 +128,7 @@ module.exports = React.createClass
 
   render: ->
     style =
-      position:
-        if @props.disable or @state.state is "unfixed"
-          'relative'
-        else
-          'fixed'
+      position: "fixed"
       top: 0
       left: 0
       right: 0
