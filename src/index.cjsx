@@ -17,7 +17,7 @@ module.exports = React.createClass
   ticking: false
 
   propTypes:
-    parent: React.PropTypes.node
+    parent: PropTypes.func
     children: PropTypes.any.isRequired
     disableInlineStyles: PropTypes.bool
     disable: PropTypes.bool
