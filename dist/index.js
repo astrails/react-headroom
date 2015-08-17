@@ -20,7 +20,7 @@ module.exports = React.createClass({
   lastKnownScrollY: 0,
   ticking: false,
   propTypes: {
-    parent: React.PropTypes.node,
+    parent: PropTypes.func,
     children: PropTypes.any.isRequired,
     disableInlineStyles: PropTypes.bool,
     disable: PropTypes.bool,
